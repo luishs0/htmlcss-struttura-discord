@@ -157,3 +157,76 @@ header .main-header {
     /* /body-4 */
 
 /* /MAIN */
+
+/* FOOTER */
+
+footer {
+    background-color: #23272a;
+    height: 65vh;
+}
+
+    /* footer-up */
+
+.footer-up {
+    height: 80%;
+}
+
+.container-footer-up {
+    align-items: center;
+}
+
+.col {
+    height: 80%;
+
+    /* DELETE */
+    border: 1px solid black;
+}
+
+.col-1 {
+    background-color: red;
+    width: 40%;
+}
+
+.col-2, .col-3, .col-4, .col-5 {
+    background-color: #21b2aa;
+    width: 15%;
+}
+
+.footer-down {
+    height: 10%;
+}
+
+    /* /footer-up */
+
+footer hr{
+    color: white;
+}
+
+    /* footer-down */
+
+.logo-and-button {
+    background-color: green;
+    width: 100%;
+    height: 80%;
+}
+
+.container-footer-down {
+    align-items: flex-start;
+}
+
+.footer-down{
+    height: 20%;
+}
+
+.logo-and-button {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer, button {
+    padding: 3px 6px;
+}
+
+.logo-footer {
+    background-color: white;
+}
