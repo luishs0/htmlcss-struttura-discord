@@ -63,3 +63,97 @@ header .main-header {
     height: 80%;
     width: 60%;
 }
+    /* /banner */
+
+/* /HEADER */
+
+/* MAIN */
+
+.body-1, .body-2, .body-3 {
+    height: 85vh;
+}
+
+.body-1, .body-3 {
+    background-color: white;
+}
+
+.body-2 {
+    background-color: #d3d3d3;
+}
+
+    /* body-1 */
+
+.body-1 .text-body-1 {
+    width: 60%;
+    height: 80%;
+    background-color: #1d90ff;
+}
+
+.body-1 .img-body-1 {
+    width: 40%;
+    height: 80%;
+    background-color: #ee81ee;
+}
+
+.container-body-1 {
+    align-items: center;
+}
+    /* /body-1 */
+
+    /* body-2 */
+
+.body-2 .img-body-2 {
+    width: 40%;
+    height: 80%;
+    background-color: #ee81ee;
+}
+
+.body-2 .text-body-2 {
+    width: 60%;
+    height: 80%;
+    background-color: #1d90ff;
+}
+
+.container-body-2 {
+    align-items: center;
+}
+
+    /* /body-2 */
+
+    /* body-3 */
+
+    .body-3 .img-body-3 {
+        width: 40%;
+        height: 80%;
+        background-color: #ee81ee;
+    }
+    
+    .body-3 .text-body-3 {
+        width: 60%;
+        height: 80%;
+        background-color: #1d90ff;
+    }
+    
+    .container-body-3 {
+        align-items: center;
+    }
+
+    /* /body-3 */
+
+    /* body-4 */
+
+.body-4 {
+    height: 120vh;
+    background-color: #d3d3d3;
+    align-items: center;
+}
+
+.container-body-4 {
+    background-color: green;
+    height: 85%;
+    width: 70%;
+}
+
+    /* /body-4 */
+
+/* /MAIN */
