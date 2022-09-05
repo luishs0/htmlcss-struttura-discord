@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+.container {
+    width: 70%;
+    margin: auto;
+    height: 100%;
+}
+
+.flexbox {
+    display: flex;
+}
+
+/* HEADER */
+
+    /* main-header */
+header .main-header {
+    background-color: #add8e6;
+    height: 12vh;
+}
+
+.container-header {
+    align-items: center;
+}
+
+.section-header {
+    background-color: #d9a51f;
+    padding: 3px;
+
+    /* DELETE */
+    height: 6.5vh;
+    border: 1px solid black;
+}
+
+.section-header-1 {
+    width: 20vw;
+}
+
+.section-header-2 {
+    width: 50vw;
+}
+
+.section-header-3 {
+    width: 20vw;
+    text-align: right;
+}
+    /* /main-header */
+
+    /* banner */
+.banner {
+    background-color: #00008b;
+    height: 70vh;
+    align-items: center;
+}
+
+.container-banner {
+    background-color: #ee81ee;
+    height: 80%;
+    width: 60%;
+}
