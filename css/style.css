@@ -31,6 +31,8 @@ header .main-header {
 .section-header {
     background-color: #d9a51f;
     padding: 3px;
+    display: flex;
+    align-items: center;
 
     /* DELETE */
     height: 6.5vh;
@@ -39,15 +41,29 @@ header .main-header {
 
 .section-header-1 {
     width: 20vw;
+    line-height: 100%;
 }
 
 .section-header-2 {
     width: 50vw;
+    justify-content: center;
 }
 
 .section-header-3 {
     width: 20vw;
     text-align: right;
+    justify-content: right;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    padding: 5px;
 }
     /* /main-header */
 
@@ -230,3 +246,6 @@ footer hr{
 .logo-footer {
     background-color: white;
 }
+    /* /footer-down */
+
+/* /FOOTER */
